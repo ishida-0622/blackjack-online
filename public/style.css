@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body{
+    width: 980px;
+    margin: auto;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+#roomId{
+    margin-top: 30px;
+}
+
+h1{
+    margin: 70px 0;
+}
+
+.card{
+    width: 70px;
+    height: 100px;
+    text-align: center;
+    border: solid;
+    font-size: 20px;
+    border-color: #000;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.spade, .club{
+    color: #000;
+}
+
+.heart, .dia{
+    color: #ff0000;
+}
+
+a.btn {
+    color: #000;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 30px 10px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+
+a.btn-border {
+    border: 2px solid #000;
+    border-radius: 0;
+    background: #fff;
+}
+
+a.btn-border:hover {
+    color: #fff;
+    background: #000;
+}
+
+#deck{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#result{
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.select{
+    width: 75px;
+    height: 25px;
+    margin: 10px;
+}
+
+.card{
+    margin: 5px;
+}
