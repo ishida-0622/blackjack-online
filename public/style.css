@@ -8,6 +8,7 @@ body{
 
 .flex{
     display: flex;
+    justify-content: center;
 }
 
 [v-cloak] {
@@ -25,6 +26,7 @@ h1{
 .card{
     width: 70px;
     height: 100px;
+    margin: 5px;
     text-align: center;
     border: solid;
     font-size: 20px;
@@ -41,11 +43,16 @@ h1{
     color: #ff0000;
 }
 
+.back{
+    color: #fff;
+    background-color: #000;
+}
+
 a.btn {
     color: #000;
     display: inline-block;
     padding: 5px 20px;
-    margin: 30px 10px;
+    margin: 20px 10px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     text-align: center;
@@ -75,12 +82,6 @@ a.btn-border:hover {
     font-size: 24px;
 }
 
-.select{
-    width: 75px;
-    height: 25px;
+#winLose{
     margin: 10px;
-}
-
-.card{
-    margin: 5px;
 }

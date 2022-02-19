@@ -12,26 +12,20 @@
 
 <body>
     <div id="main" v-cloak>
-        <div id="roomId">Room ID : {{ roomId }}</div><br>
+        <div id="roomId">Room ID : {{ roomId }}</div>
         <h1>Black Jack</h1>
         <input type="text" name="room" id="inputRoomId" placeholder="Room ID"><br>
         <a href="javascript:void(0);" class="btn btn-border" id="create" @click="createRoom">ルーム作成</a>
         <a href="javascript:void(0);" class="btn btn-border" id="go" @click="goRoom">ルーム入室</a>
-        <div id="opponent" v-html="opponentCardHTML" class="flex"></div>
+        <div id="opp" v-html="oppCardHTML" class="flex"></div><br>
         <div id="my" v-html="myCardHTML" class="flex"></div>
-        <div id="winLose">{{ winLose }}</div>
         <div id="result">{{ result }}</div>
+        <div id="select" v-html="selectHTML"></div>
+        <img :src="genba"><br>
+        <a :href="githubURL" id="github" target="_blank">ソースコード(GitHub)</a>
     </div>
     <script defer src="/__/firebase/9.6.6/firebase-app-compat.js"></script>
-    <!-- <script defer src="/__/firebase/9.6.6/firebase-auth-compat.js"></script> -->
     <script defer src="/__/firebase/9.6.6/firebase-database-compat.js"></script>
-    <!-- <script defer src="/__/firebase/9.6.6/firebase-firestore-compat.js"></script> -->
-    <!-- <script defer src="/__/firebase/9.6.6/firebase-functions-compat.js"></script> -->
-    <!-- <script defer src="/__/firebase/9.6.6/firebase-messaging-compat.js"></script> -->
-    <!-- <script defer src="/__/firebase/9.6.6/firebase-storage-compat.js"></script> -->
-    <!-- <script defer src="/__/firebase/9.6.6/firebase-analytics-compat.js"></script> -->
-    <!-- <script defer src="/__/firebase/9.6.6/firebase-remote-config-compat.js"></script> -->
-    <!-- <script defer src="/__/firebase/9.6.6/firebase-performance-compat.js"></script> -->
     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
     <script defer src="main.js"></script>
 </body>
