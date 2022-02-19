@@ -1,3 +1,4 @@
+//@ishida-0622
 // 参考1 : https://qiita.com/miso_develop/items/c2061519bb458e22f7d3
 // 参考2 : https://github.com/miso-develop/ox-game/blob/master/public/ox.js
 // 完全なローカル環境だと動きません localhostを建てるか https://black-jack-515b0.web.app にアクセスしてください
