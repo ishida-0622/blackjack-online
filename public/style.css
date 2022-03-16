@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
-body{
+body {
     width: 980px;
     margin: auto;
     text-align: center;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: center;
 }
@@ -15,15 +15,15 @@ body{
     display: none;
 }
 
-#roomId{
+#roomId {
     margin-top: 30px;
 }
 
-h1{
+h1 {
     margin: 70px 0;
 }
 
-.card{
+.card {
     width: 70px;
     height: 100px;
     margin: 5px;
@@ -35,15 +35,15 @@ h1{
     background-color: #fff;
 }
 
-.spade, .club{
+.spade, .club {
     color: #000;
 }
 
-.heart, .dia{
+.heart, .dia {
     color: #ff0000;
 }
 
-.back{
+.back {
     color: #fff;
     background-color: #000;
 }
@@ -72,16 +72,24 @@ a.btn-border:hover {
     background: #000;
 }
 
-#deck{
+#deck {
     text-align: center;
     margin-top: 30px;
 }
 
-#result{
+#result {
     margin-top: 10px;
     font-size: 24px;
 }
 
-#winLose{
+#winLose {
     margin: 10px;
+}
+
+.vfor {
+    margin: 50px;
+}
+
+.vfor p {
+    margin: 0;
 }
