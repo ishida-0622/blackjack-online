@@ -62,6 +62,7 @@ const vm = new Vue({
             drawnCards: [new Card(suits[4], 999)], // すでに引かれたカード ダミー
             endFlag: false // trueになると部屋が消える処理が行われる
         },
+        githubURL: "https://github.com/ishida-0622/BlackJack_Online",
     },
     methods: {
         /**
